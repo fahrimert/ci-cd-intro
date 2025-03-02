@@ -7,12 +7,12 @@ router.get('/', function (req, res, next) {
 })
 
 /* GET ice-flakes resource */
-router.get('/ice-flakes', function (req, res, next) {
+router.get('/ice-flakes', function (req, res, next) {  
   res
     .status(201)
     .json({
       resource: 'ice-flakes',
-      count: 1005,
+      count: 205,
       shape: 'rectangle'
     })
 })
